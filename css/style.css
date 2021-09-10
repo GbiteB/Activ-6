@@ -1,0 +1,241 @@
+*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'open-sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.row-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.row-column-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.row-column {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.custom-font {
+    font-family: 'Playfair Display', serif;
+}
+header {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding: 0px;
+    background-image: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-heading {
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+.banner-text {
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: white;
+    color: black;
+    padding: 80px 20px;
+}
+.annon-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 ;
+    background-color: lightpink;
+    color: white;
+}
+.annon {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.annon span {
+    font-size: 6rem;  
+}
+.annon-section p {
+    width: 50%;
+    font-size: 0.8rem;
+}
+.gallery .img-container{
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery .gallery-img-1 {
+    background-image: url(../img/gallery-1.jpeg);
+}
+.gallery .gallery-img-2 {
+    background-image: url(../img/gallery-2.jpeg);
+}
+.gallery .gallery-img-3 {
+    background-image: url(../img/gallery-3.jpeg);
+}
+.gallery .gallery-img-4 {
+    background-image: url(../img/gallery-4.jpeg);
+}
+.gallery .gallery-img-5 {
+    background-image: url(../img/gallery-5.jpeg);
+}
+.gallery .gallery-img-6 {
+    background-image: url(../img/gallery-6.jpeg);
+}
+.coming-soon {
+    background-color: #ec9aa7;
+    color: white;
+    padding: 50px 0;
+}
+.coming-soon .row-column-100 {
+    justify-content: center;
+}
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form {
+    text-align: center;
+}
+.coming-soon .coming-soon-heading {
+    font-size: 4rem;
+    font-style: italic;
+}
+.coming-soon .coming-soon-text {
+    font-size: 1.3rem;
+}
+.coming-soon .coming-soon-form {
+    margin-top: 35px;
+}
+.coming-soon-form .row-100 {
+    justify-content: center;
+}
+.coming-soon-form .input-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+}
+.input-container .text-input,
+.input-container .form-button {
+    padding: 15px 10px;
+    border: unset;
+    border-radius: 20px;
+}
+.input-container .form-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 30px;
+}
+.article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+.article-pic { 
+    margin: 40px 0 40px 150px;
+}
+.article-text {
+    margin: 50px 130px 0 50px;
+    width: 50%;
+    font-size: 0.8rem;
+    justify-self: normal;
+}
+.article-text2 {
+    font-family: 'Italianno', cursive;
+    color: #ec9aa7;
+    font-size: 1.8rem;
+}
+.spring-collection {
+    background-color: #ec9aa8bd;
+    color: white;
+    text-align: center;
+    padding: 0 110px;
+}
+.spring-collection-heading {
+    margin: 0;
+    font-size: 3.6rem;
+    font-style: italic;
+    padding: 50px 0 10px 0;
+}
+.collection-pictures {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 350px;
+    overflow: hidden;
+}
+.sample {
+    display: flex;
+    padding: 30px 180px;
+    gap: 20px;
+}
+.sample-pictures {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 280px;
+}
+.sample-text {
+    font-size: .75rem;
+    width: 280px;
+}
+.subscribe {
+    display: flex;
+}
+.sub-pic {
+    width: 53%;
+}
+.subscribe2 {
+    width: 30%;
+    text-align: center;
+}
+.rule {
+    background-color: pink;
+    color: pink;
+    height: 5px;
+    margin-top: 80px;
+}
+.subscribe-text {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: black;
+    font-size: 2.9rem;
+    margin-top: 30px;
+}
+.subscribe-form {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: unset;
+    padding-bottom: 10px;
+    height: 35px;
+}
+.sub-text {
+    font-size: .75rem;
+    padding: 0 50px;
+}
+.crop {
+    width: 580px;
+    height: 580px;
+    object-fit: none;
+    object-position: 5px 50%;
+}
